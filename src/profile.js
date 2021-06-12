@@ -9,18 +9,18 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "DeQuan Sanders",
 };
 const background = {
   // Options: Snow or Particle
-  type: "Snow",
+  type: "Particle",
 };
 // Write a para about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    " A passionate Software Engineer / Web Developer 🚀  with experience in designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -69,7 +69,7 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Past Projects";
+const section3Title = "Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
@@ -144,18 +144,18 @@ const miscellaneous = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
+    "This dedicated developer is open to request no matter how big or small and solving technical issues that require certain skills needed to achieve digital growth and success in connecting with your clients.",
+  copyright: "DeQuan Sanders",
   contactUrl: "",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
+  github: "https://github.com/SupaDupa24",
   facebook: "https://facebook.com",
-  linkedin: "https://linkedin.com",
+  linkedin: "www.linkedin.com/in/dequan-sanders-3937b364",
   instagram: "https://instagram.com",
-  resume: "https://novoresume.com/",
+  resume: "https://my.indeed.com/p/dequans-5oqoqnw",
 };
 // Dont change anything here
 export {
