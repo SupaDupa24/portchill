@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 :root {
-    --primary-color:  #e96224;
-    --hover-color:  #ff6600;
+    --primary-color:  #5814d8;
+    --hover-color:  #6fe2e6;
+    scroll-behavior: smooth;
 }

@@ -5,7 +5,7 @@
 }
 /* Projects Photo */
 .project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
+    background-image: url('/public/ecommerce.png');
     cursor: none;    
 }
 .project2{

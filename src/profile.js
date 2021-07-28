@@ -69,19 +69,19 @@ const skillsBar = [
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
 // To Add a Project, copy any one below and paste it after the last comma and increment the id's project number
-const section3Title = "Projects";
+const section3Title = "CATALOG";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "E-Commerce",
+    skills: ["SEO Ready, Responsive, Integrate seamlessly with the most common ecommerce platforms"],
+    url: "https://commerce1-ruddy.vercel.app/",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
+    name: "",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/kaustubhai",
   },
