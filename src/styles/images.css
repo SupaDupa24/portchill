@@ -1,7 +1,5 @@
 
-*:hover {
-    cursor: pointer;
-}
+
 
 /* Add your profile image here */
 .Photo{
@@ -10,19 +8,23 @@
 /* Projects Photo */
 .project1{
     background-image: url('../styles/imgs/ecommerce.png');
-    z-index: 10;    
+    z-index: 10;
+    cursor:pointer;    
 }
 .project2{
     background-image: url('../styles/imgs/catalog.png');
     z-index: 10;
+    cursor:pointer;
 }
 .project3{
     background-image: url('../styles/imgs/e2.png');
     z-index: 10;
+    cursor:pointer;
 }
 .project4{
     background-image: url('../styles/imgs/bologna1.png');
     z-index: 10;
+    cursor:pointer;
 }
 .project5{
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
