@@ -75,29 +75,29 @@ const projects = [
     // Add image in './styles/images.css' in #project1
     id: "project1",
     name: "E-Commerce",
-    skills: ["SEO Ready, Responsive, Integrate seamlessly with the most common ecommerce platforms"],
-    url: "https://commerce1-ruddy.vercel.app/",
+    skills: ["SEO Ready, Responsive, Integrate seamlessly with the most common ecommerce platforms, with an addition to Security with STRIPE"],
+    url: "https://commerce-kappa-flax.vercel.app/",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "YOUR CATALOG",
+    skills: ["Ready for your taking, sytling and customizations"],
+    url: "https://hull-shopify-starter-1.vercel.app/",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "...another E-commerece platform",
+    skills: ["Easy to customize and inergrate with most CMS platforms"],
+    url: "https://commerce1-ruddy.vercel.app/",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Simple Blog",
+    skills: ["Simple Blog Starter"],
+    url: "https://next-js-blog-with-comments-roan-five.vercel.app/",
   },
   {
     // Add image in './styles/images.css' in #project5
