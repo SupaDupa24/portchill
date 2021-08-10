@@ -1,7 +1,12 @@
 import React from 'react'
+import { useForm } from '@formspree/react'
 import { contact, section5Title, social } from '../../profile'
 
 const Contact = () => {
+    const [state, handleSubmit] = useForm("mknkqpjj");
+    if (state.succeeded) {
+        return <p>Thanks for your inquiry. I'll be sure to get back with you in no time.</p>;
+    }
 
     
     return (
@@ -15,12 +20,12 @@ const Contact = () => {
                 <div className="container">
             <div className="git-cont row">
                 <div className="col-12 col-sm-6 half">
-                    <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}>
+                    <form onSubmit={handleSubmit}>
                         <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                         <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                         <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
                         <textarea id="msg" name="message" placeholder="Message" required></textarea>
-                        <button style={{cursor: 'pointer'}} type="submit"><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
+                        <button style={{cursor: 'pointer'}} type="submit" disabled={state.submitting}><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
                     </form>
                 </div>
                 <div className="col-12 col-sm-6 half">
