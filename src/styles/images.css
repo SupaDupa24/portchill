@@ -45,7 +45,7 @@
 }
 .misc3{
     background-image: url('../styles/imgs/lander.PNG');
-    cursor: none;
+    cursor: pointer;
 }
 /* Contact form parallax effect image */
 .parallax{
