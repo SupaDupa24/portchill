@@ -1,5 +1,5 @@
 import React from 'react'
-import { useForm } from '@formspree/react'
+import { useForm, ValidationError } from '@formspree/react'
 import { contact, section5Title, social } from '../../profile'
 
 const Contact = () => {
@@ -24,7 +24,17 @@ const Contact = () => {
                         <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                         <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                         <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
+                        <ValidationError 
+                                prefix="Email" 
+                                field="email"
+                                errors={state.errors}
+                             />
                         <textarea id="msg" name="message" placeholder="Message" required></textarea>
+                        <ValidationError 
+                                prefix="Message" 
+                                field="message"
+                                errors={state.errors}
+                            />
                         <button style={{cursor: 'pointer'}} type="submit" disabled={state.submitting}><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
                     </form>
                 </div>

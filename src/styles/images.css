@@ -27,24 +27,24 @@
     cursor:pointer;
 }
 .project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
-    cursor: none;
+    background-image: url('../styles/imgs/scrollio.PNG');
+    cursor: pointer;
 }
 .project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
-    cursor: none;
+    background-image: url('../styles/imgs/digit.PNG');
+    cursor: pointer;
 }
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
-    cursor: none;
+    background-image: url('../styles/imgs/hargoshop.PNG');
+    cursor: pointer;
 }
 .misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
-    cursor: none;
+    background-image: url('../styles/imgs/podcast.PNG');
+    cursor: pointer;
 }
 .misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    background-image: url('../styles/imgs/lander.PNG');
     cursor: none;
 }
 /* Contact form parallax effect image */

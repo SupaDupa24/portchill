@@ -102,16 +102,16 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project5
     id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Infinite Unscrollio",
+    skills: ["Infnite Amazing photos using an API"],
+    url: "https://supadupa24.github.io/InfiniteUnScrollio/",
   },
   {
     // Add image in './styles/images.css' in #project6
     id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "DigiTrends",
+    skills: ["Light/Dark"],
+    url: "https://supadupa24.github.io/DigiTrends/",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
@@ -122,20 +122,20 @@ const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
-    name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    name: "more commerece",
+    url: "https://blissful-pare-16588b.netlify.app/",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
-    name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
+    name: "Bloggin' till the world",
+    url: "https://oval-potato-8ec62.netlify.app/",
   },
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
-    name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    name: "Landing Page",
+    url: "https://land-11.netlify.app/",
   },
 ];
 // Contact form text, and Jotforms link
@@ -146,7 +146,7 @@ const contact = {
   pitch:
     "This dedicated developer is open to request no matter how big or small and solving technical issues that require certain skills needed to achieve digital growth and success in connecting with your clients.",
   copyright: "DeQuan Sanders",
-  contactUrl: "https://formspree.io/f/mknkqpjj",
+  contactUrl: "https://form.jotform.com/212157792931056",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
