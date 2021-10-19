@@ -35,7 +35,7 @@ const Contact = () => {
                                 field="message"
                                 errors={state.errors}
                             />
-                        <button style={{cursor: 'pointer'}} type="submit" disabled={state.submitting}><label style={{cursor: 'pointer'}} id="not-dark">Send Message</label></button>
+                        <button style={{cursor: 'pointer'}} type="submit" disabled={state.submitting}>Send Message</button>
                     </form>
                 </div>
                 <div className="col-12 col-sm-6 half">
