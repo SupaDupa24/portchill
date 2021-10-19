@@ -88,9 +88,9 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "...another E-commerece platform",
-    skills: ["Easy to customize and inergrate with most CMS platforms"],
-    url: "https://commerce1-ruddy.vercel.app/",
+    name: "Quote Generator",
+    skills: ["Generates Quotes from API"],
+    url: "https://supadupa24.github.io/QuoteGenerator/",
   },
   {
     // Add image in './styles/images.css' in #project4
