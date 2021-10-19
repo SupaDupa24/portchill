@@ -128,8 +128,8 @@ const miscellaneous = [
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
-    name: "Bloggin' till the world",
-    url: "https://oval-potato-8ec62.netlify.app/",
+    name: "Robo Homies",
+    url: "https://real-robo.vercel.app/",
   },
   {
     // Add image in './styles/images.css' in #misc3
